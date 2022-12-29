@@ -1,0 +1,26 @@
+pipeline{
+    agent any
+    stages{
+        stage('install') {
+            steps{
+                echo 'install'
+            }
+            
+
+        }
+    stage('test') {
+            steps{
+                echo 'test'
+            }
+            
+
+        }
+    stage('package') {
+            steps{
+                echo 'package'
+            }
+            
+
+        }
+    }
+}
